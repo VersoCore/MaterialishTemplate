@@ -1,0 +1,9 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="@color/windowBackgroundColor"
+    android:divider="@android:color/black"
+    android:paddingLeft="@dimen/sidemargin"
+    android:paddingRight="@dimen/sidemargin" />

@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mattmartz.materialishtemplate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.mattmartz.materialishtemplate.ActivityOne"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mattmartz.materialishtemplate.ActivityTwo"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"></activity>
+
+    </application>
+
+</manifest>
